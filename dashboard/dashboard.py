@@ -138,7 +138,7 @@ with tabs[0]:
 
 with tabs[1]:
     st.subheader("Pola peminjaman Sepeda per Jam")
-    fig, ax = plt.subplots(figsize=(12, 5))
+    fig, ax = plt.subplots(figsize=(10, 6))
     ax.plot(hourly_rental_data['hour'], hourly_rental_data['casual'], marker='o', linestyle='-', color=set2_palette[1], label='Casual')
     ax.plot(hourly_rental_data['hour'], hourly_rental_data['registered'], marker='o', linestyle='-', color=set2_palette[2], label='Registered')
     ax.set_xlabel("Jam dalam Sehari")
