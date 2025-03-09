@@ -32,8 +32,8 @@ def create_hourly_rental_trend(df):
     return hour_trend
 
 # Load data
-day_df = pd.read_csv("day_final.csv")
-hour_df = pd.read_csv("hour_final.csv")
+day_df = pd.read_csv("dashboard/day_final.csv")
+hour_df = pd.read_csv("dashboard/hour_final.csv")
 
 for df in [day_df, hour_df]:
     df.sort_values(by="date", inplace=True)

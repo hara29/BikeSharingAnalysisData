@@ -54,6 +54,9 @@ BikeSharingAnalysisData/
 - Analisis faktor lingkungan (suhu, kelembapan, dan kecepatan angin)  yang memengaruhi penggunaan sepeda
 - Grafik interaktif dengan Streamlit
 
+## 📸 Screenshot Dashboard
+
+
 ## 📌 Referensi Dataset
 
 Dataset yang digunakan dapat ditemukan di: [Dataset Bike Sharing](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
